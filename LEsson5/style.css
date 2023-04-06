@@ -1,0 +1,65 @@
+body {
+     background: url(https://upload.wikimedia.org/wikipedia/commons/0/05/Yalta_Conference_%28Churchill%2C_Roosevelt%2C_Stalin%29_%28B%26W%29.jpg) no-repeat ;
+    background-size: cover; 
+}
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+    border: 1px solid black;
+    border-style: dashed;
+    color: rgb(18, 17, 17);
+    margin: 0 50px 0 50px;
+}
+.picturesunderheader {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 100px;
+    
+}
+img {
+    width: 200px;
+    height: 150px;
+    padding: 0 10px 0 20px;
+    opacity: 0.85;
+}
+.pi1,.pi2,.pi3 {
+font-size: 20px;
+color:rgb(218, 42, 42);
+}
+.pdiv {
+    margin-top: 250px;
+    width: 70%;
+    margin-left: 250px;
+    background: whitesmoke;
+    opacity: 0.8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table {
+    margin-left: 300px;
+    border: dashed;
+}
+th {
+    background: grey;
+}
+td {
+    border: solid;
+}
+#inputt {
+    background: whitesmoke;
+    width: 130px;
+}
+.inputdiv {
+    margin-left: 90px;
+}
+button {
+    background-color: grey;
+}
+button:active {
+    color: blue;
+
+}
+input:focus{
+    color:red
+}
