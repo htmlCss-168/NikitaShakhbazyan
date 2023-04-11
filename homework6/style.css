@@ -1,0 +1,113 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0565/7080/6458/collections/bionic-blocks-wallpaper-mural.jpg?v=1660199357) ;
+}   
+
+.topdiv {
+margin-top: 120px;
+height: 150px;
+text-align: center;
+padding-left: 190px;
+}
+.topdiv a {
+    display: inline;
+    justify-content: center;
+    font-size: 40px;
+    margin-right: 150px;
+    text-decoration: underline 7px;
+
+    color: black;
+}
+.h1div {
+    text-align: center;
+    font-size: 30px;
+}
+.divwithimg img {
+    width: 200px;
+    margin-left: 170px;
+    height: 300px;
+    padding-bottom: 40px;
+    border:2px black solid;
+    border-radius: 10%;
+
+}
+img:hover {
+transform: translateX(20px);
+transition: ease 1.5s;
+
+
+}
+#img1 {
+    height: 200px;
+    margin-bottom: 50px;
+    width: 200px;
+}
+.textdiv {
+    text-align: center;
+    margin-top: 50px;
+   
+}
+p {
+    margin: 0 300px 0 300px; 
+    border: 2px solid black;
+    padding: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+span {
+    font-size: 20px;
+    color: red;
+}
+#physicalactivity:hover {
+    color: coral;
+    
+
+}
+.tablediv {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+table {
+    border: 2px solid black;
+    width: 500px;
+    height: 250px;
+    border-style: dashed;
+}
+td {
+    border:2px solid black;
+}
+
+#trnmbr1 {
+    background-color: blue;
+}
+
+#trnmbr2:hover {
+
+    color: blue;
+    background-color: green;
+
+}
+#trnmbr3:hover {
+    color:blue;
+    background-color: greenyellow;
+}
+footer {
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+}
+#input1:hover {
+    color: grey ;
+
+}
+button:hover {
+background-color: grey;
+}
+button:active {
+    background-color: brown;
+}
