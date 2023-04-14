@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(181, 181, 87);
+    margin: 0px;
+    
+}
+
+
+
+.navigationdiv {
+    width: 100%;
+    height: 250px;
+    display:flex; 
+    justify-content: center;
+    background-image:url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+    
+}
+
+#namep {
+    margin-top: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px skyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 35px;
+    height: 20px;
+}
+
+#topnav {
+    border: 2px black solid;
+    height: 80px;
+    display: flex ;
+    width: 840px;
+    justify-content: center;
+    margin-top: 110px;
+    background-color: rgb(31, 19, 19);
+    border-radius: 15%;
+    font-size: 25px;
+    margin-right: 250px;
+
+}
+#topnav a {
+    margin:5px 0px 5px 25px;
+    padding: 20px;
+    border-radius: 15%;
+    text-decoration: none;
+    color: wheat;
+}
+
+#topnav a:hover{
+    background-color: rgb(68, 68, 74) ;
+    transition: ease 0.9s;
+    transform:translateY(5px);
+}
+.content {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+}
+table {
+margin-left: 500px;
+}
+p {
+    /* margin-left: 400px;
+    font-size: 30px; */
+    width: 60%;
+}
+
+.tdandp {
+    
+    margin-top: 40px; 
+    width: 80%;
+}
+#p1 {
+    margin-top: 100px;
+    justify-content:center;
+    border-radius: 50%;
+    padding: 80px;
+    border: black solid 2px;
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 50px;
+}
+#p1:hover {
+    background-color: rgb(108, 108, 212);
+    transition: ease 0.5s;
+}
+#p1:
+
+#table1 td {
+    border: 2px black solid;
+    font-size: 30px;
+    padding: 10px;
+}
+#table1 th {
+    border: 2px black solid;
+    font-size: 30px;
+    padding: 10px;
+}
+#table2 td {
+    border: 2px black solid;
+    font-size: 30px;
+    padding: 10px;
+}
+#table2 th {
+    border: 2px black solid;
+    font-size: 30px;
+    padding: 10px;
+}
+#p2 {
+    margin-top: 100px;
+    margin-left: 540px;
+    justify-content: center;
+    border: 2px black solid;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 55px;
+    background-color: green ;
+}
+#p2:hover {
+    background-color: greenyellow;
+    transition: ease 0.5s;
+}
+#tr1:hover {
+    background-color: white;
+}
+#tr2:hover{
+    background-color: white;
+}
+.socialmedia {
+    position: fixed;
+    margin-left: 1360px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: -30px;
+    background: white;
+    border-radius: 15%;
+}
+.socialmedia img {
+    width: 100px;
+    height: 100px;
+}
+.socialmedia a {
+font-size: 25px;
+text-decoration: none;
+padding-top: 10px;
+margin-left: 10px;
+color: forestgreen;
+}
+.socialmedia a:hover{
+    color: blueviolet
+}
+@font-face {
+    font-family: ;
+    src: url();
+}
