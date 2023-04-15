@@ -171,7 +171,6 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 100px;
 }
 .footerdiv {
-    background-color: ;
     height: 150px;
     width: 99%;
     border: 2px solid black;
@@ -253,9 +252,6 @@ h3 {
     width: 50px;
     height: 30px;
 }
-#ashop {
-    padding-top: ;
-}
 
 #h3news {
     color: white;
@@ -269,7 +265,7 @@ h3 {
     width: 340px;
     justify-content: center;
     display: flex;
-    margin-left:610px;
+    margin-left:530px;
     height: 50px;
     text-align: center;
 }
@@ -285,7 +281,7 @@ h2 {
     font-size: 40px;
 }
 #h3button { 
-    margin-left: 750px;
+    margin-left: 660px;
     margin-top: 10px;
     padding: 10px;
     background-color: rgb(209, 201, 201);
