@@ -1,0 +1,671 @@
+
+
+
+body {
+    height: ;
+    margin:0;
+    padding: 0; 
+}
+header {
+    background-image: url(/img/header.jpg);
+    height: 694px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins';
+}  
+@font-face {
+    font-family: "Poppins";
+    src: url(/font/Poppins.otf);
+}
+nav {
+    position: absolute;
+}
+#headerimg {
+    height: 23.547168731689453px;
+    width: 28.47805404663086px;
+    left: 0px;
+    top: 0.2264404296875px;
+    border-radius: 0px;
+    /* background-color: white; */
+    position:absolute;
+    top: 27px;
+    left: 87px;
+    bottom: 646px;
+    right: 1324px;
+
+}
+
+#namepp {
+    height: 36px;
+    width: 135px;
+    left: 130px;
+    top: 18px;
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    Font-family: 'Poppins';
+    font-size: 24px;
+    font-size: bold;
+    background-color: black;
+    border-radius: 50%;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font: poppins;
+}
+#about {
+    width: 63.16px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+    line-height: 100%;
+    position: absolute;
+    top: 27px;
+    left: 905px;
+    right:471.84px;
+    bottom: 640px;
+}
+#whatido {
+    width: 97.24px ;
+    height: 27px;
+    position: absolute;
+    top: 27px;
+    left: 1000.24px;
+    right: 342.52px;
+    bottom: 640px;
+    font-size: 18px;
+    line-height: 27px;
+    line-height: 100%;
+}
+#worrk {
+    width: 58.15px;
+    height: 27px;
+    top: 27px;
+    bottom: 640px;
+    left: 1129.56px;
+    right: 252.29px;
+    position: absolute;
+}
+#contact {
+    position:absolute;
+    width: 90.23px;
+    height: 27px;
+    top: 27px;
+    bottom: 640px;
+    left: 1219.79px;
+    right: 129.98px;
+
+}
+#hello {
+    color: white;
+    width: 554px;
+    height: 96px;
+    font-family: poppins;
+    font-size: 58px;
+    position:absolute;
+    top: 263px;
+    bottom: 335px;
+    left: 498px;
+    right: 633px;
+    font-weight: 600;
+    border-radius:50% ;
+    background-color: black;
+}
+#hello:hover {
+
+    background-color: grey;
+}
+#frontenddev {
+    position: absolute;
+    width: 500px;
+    height: 36px;
+    top: 383px;
+    bottom: 275px;
+    right:472px;
+    left: 468px;
+    color: white;
+}
+#instaimg,#fbimg,#githubimg {
+    background-color: white;
+}
+#instaimg {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 632px;
+    top: 444px;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+.socialmediadiv {
+    position: absolute;
+}
+#fbimg {
+    position: absolute;
+    width: 9.34px;
+    height: 18px;
+    top: 444px;
+    bottom: 225px;
+    left: 698px;
+    right: 723.83px;
+    border-radius: 30px;
+    padding: 12px 15.83px 12px 15.83px;
+    color: black; 
+    
+}
+#githubimg {
+    height:23px;
+    width: 24px;
+    left: 763px;
+    top: 443px;
+    border-radius: 31px;
+    padding: 10px;
+    position: absolute;
+
+}
+
+.container {
+    height: 3023px;
+    width: 1440px;
+    left: -851px;
+    top: -721px;
+    border-radius: 0px;
+    background: rgba(33, 33, 33, 1);
+
+}
+#laptopimg {
+    position: absolute;
+    height: 380.2478332519531px;
+    width: 525.977294921875px;
+    left: 130px;
+    top: 800px;
+    z-index: 9999;
+}
+.borderforimg {
+    height: 380.2478332519531px;
+    width: 525.977294921875px;
+    left: 157.022705078125px;
+    top: 826.0575866699219px;
+    border-color: white;
+    position: absolute;
+    border: 2px solid rgba(255, 255, 255, 1)
+
+}
+#aboutme {
+    position: absolute;
+    height: 36px;
+    width: 169px;
+    left: 730px;
+    top: 821px;
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(76, 112, 239, 1);
+}
+#h4myname {
+    position: absolute;
+    height: 54px;
+    width: 350px;
+    left: 730px;
+    top: 869px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+    }
+    #underh4 {
+    height: 108px;
+    width: 580px;
+    left: 730px;
+    top: 955px;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(176, 173, 173, 1);
+
+}
+#underh4n2 {
+    height: 108px;
+    width: 580px;
+    left: 730px;
+    top: 1110px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    color:rgba(176, 173, 173, 1);
+
+
+}
+#h1whatido {
+    height: 36px;
+    width: 167px;
+    left: 646px;
+    top: 1331px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    position: absolute;
+    color: rgba(76, 112, 239, 1);
+    Letter-spacing: 10%;
+
+}
+#specializing {
+    height: 54px;
+    width: 303px;
+    left: 578px;
+    top: 1379px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+    position:absolute;
+
+}
+.minicont1 {
+    position: absolute;
+    height: 206px;
+    width: 480px;
+    left: 230px;
+    top: 1484px;
+    border-radius: 12px;
+    background-color:rgba(41, 44, 54, 1);
+    
+}
+#developimg {
+    padding: 12px;
+    height: 42px;
+    width: 42px;
+    left: 12px;
+    top: 12px;
+    border-radius: 0px;
+    position: absolute;
+    background-color: rgba(56, 64, 90, 1);
+}
+#contdevelop1   {
+    width: 220px;
+    height: 72px;
+    position:absolute;
+    top: 20px;
+    left: 134px;
+    bottom: 107px;
+    right: 126px;
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+#undercontdevelop1 {
+    position: absolute;
+    top: 131px;
+    left: 24px;
+    bottom: 21px;
+    right: 24px;
+    width: 432px;
+    height: 54px;
+    color: wheat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.minicont2 {
+    height: 206px;
+    width: 480px;
+    left: 730px;
+    top: 1484px;
+    border-radius: 12px;
+    background: rgba(41, 44, 54, 1);
+    position: absolute;
+
+}
+#developimg2 {
+    padding: 12px;
+    background: rgba(56, 64, 90, 1);
+    width: 42px;
+    height: 42px;
+    top: 12px;
+    bottom: 113px;
+    right: 388px;
+    left: 25px;
+    position: absolute;
+
+}
+#contdevelop2 {
+    width: 177px;
+    height: 72px;
+    position: absolute;
+    top: 20px;
+    left: 107.58px;
+    bottom: 110px;
+    left: 194.97px;
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#undercontdevelop2 {
+    color: wheat;
+    position: absolute;
+    width: 432px;
+    height: 54px;
+    top: 128px;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+}
+#portofolio {
+    width: 150px;
+    height: 36px;
+    position: absolute;
+    top: 1810px;
+    left: 645px;
+    right: 645px;
+    bottom: 1177px;
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(76, 112, 239, 1);
+
+
+}
+#latestprojects {
+    width: 468px;
+    height: 54px;
+    position: absolute;
+    top: 1858px;
+    bottom: 1111px;
+    left: 536px;
+    right: 536px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+
+}
+#portofolio1 {
+height: 283px;
+width: 380px;
+left: 130px;
+top: 1944px;
+position: absolute;
+}
+#portofolio2 {
+   position: absolute;
+   width: 380px;
+   height: 283px;
+    top: 1944px;
+    left: 530px;
+}
+#portofolio3 {
+    position: absolute;
+    width: 380px;
+    height: 283px;
+    top: 1944px;
+    left: 930px;
+}
+#portnav1 {
+    position: absolute;
+    width: 380px;
+    height: 123px;
+    top: 2227px;
+    left: 130px;
+    background: rgba(41, 44, 54, 1);
+    border-radius: 0 0 10% 10%;
+
+}
+#needforappdesign {
+    width: 229px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    color: white ;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#viewdemo {
+    width: 95px;
+    height: 25px;
+    padding: 10px 18px 10px 18px;
+    position: absolute;
+    background: rgba(85, 143, 255, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    top: 72px;
+    left: 42px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.portnav2 {
+height: 123px;
+width: 380px;
+left: 530px;
+top: 2227px;
+position: absolute;
+background: rgba(41, 44, 54, 1);
+border-radius: 0 0 10% 10%;
+
+
+
+}
+#webdesign {
+    color: white;
+    width: 240px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#viewdemo2 {
+    width: 95px;
+    height: 25px;
+    padding: 10px 18px 10px 18px;
+    position: absolute;
+    background: rgba(85, 143, 255, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    top: 62px;
+    left: 24px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.portnav3 {
+    width: 380px;
+    height: 123px;
+    background: rgba(41, 44, 54, 1);
+    position: absolute;
+    top: 2227px;
+    left: 930px;
+    border-radius: 0 0 10% 10%;
+}
+#travelappdesign {
+    width: 184px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    color: white;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+#viewdemo3 {
+    width: 95px;
+    height: 25px;
+    padding: 10px 18px 10px 18px;
+    position: absolute;
+    background: rgba(85, 143, 255, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    top: 72px;
+    left: 42px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.lastone {
+height: 277px;
+width: 980px;
+left: 230px;
+top: 2470px;
+border-radius: 12px;
+background: rgba(41, 44, 54, 1);
+position: absolute;
+
+}
+#haveany {
+    width: 452px;
+    height: 48px;
+    position: absolute;
+    top: 78px;
+    left: 274px;
+    color: white;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+#contacthere {
+    width: 130px;
+    height: 41px;
+    position: absolute;
+    padding: 20px 18px 10px 18px;
+    background: rgba(85, 143, 255, 1);
+    color: white;
+    top: 158px;
+    left: 423px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    border-radius: 15%;
+
+}
+footer {
+    position: absolute;
+    top: 2887px;
+    width: 1440px;
+    height: 176px;
+    background: rgba(41, 44, 54, 1);
+
+}
+#logo {
+    height: 48px;
+    width: 120px;
+    left: 675px;
+    top: 25px;
+    bottom: 64px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+
+
+}
+#copyright {
+    height: 24px;
+    width: 353px;
+    left: 583px;
+    top: 100px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    word-spacing: 10px;
+
+
+
+}
