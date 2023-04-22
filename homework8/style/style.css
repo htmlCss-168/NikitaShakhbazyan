@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://wallpaperaccess.com/full/19921.jpg);
+    /* background-image: url(https://wallpaperaccess.com/full/19921.jpg); */
     animation-name: backgroundd;
     background-size:cover;
     background-repeat: no-repeat;
@@ -9,13 +9,13 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-/* @keyframes backgroundd { */
+@keyframes backgroundd { 
     0% {background-image: url(https://wallpaperaccess.com/full/19921.jpg);}
     20% {background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);}
     40% {background-image: url(https://live-production.wcms.abc-cdn.net.au/8393f16b3a14cd32d0d5d75c1c05d56b?impolicy=wcms_crop_resize&cropH=1080&cropW=1918&xPos=1&yPos=0&width=862&height=485);}
     60%{background-image: url(https://www.pexels.com/photo/1252890/download/);}
     80% {background-image: url(https://astronomy.com/-/media/Images/News%20and%20Observing/News/2021/09/Starsinthesky.jpg?mw=600);}
-    100% {background-image: url(https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee.jpg);}
+    100% {background-image: url(https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee.jpg);}  }
     
 
 
