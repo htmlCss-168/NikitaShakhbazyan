@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    
+}
+
+
+@keyframes headerbackground {
+    0% {background-image: url(https://i0.wp.com/www.rolledlife.com/wp-content/uploads/2018/01/27957157599_8288769812_o-e1516263764474.jpg?fit=1920%2C1280&quality=95);}
+    20% {background-image: url(https://bmwtuning.co/wp-content/uploads/2022/11/e39.webp);}
+    40% {background-image: url(https://www.supersprint.com/public/img/001-505797.jpg);}
+    60% {background-image: url(https://en.firstauto.lv/wp-content/uploads/2022/11/img_2013.jpg);}
+    80% {background-image: url(https://cdn.shopify.com/s/files/1/0631/3567/8697/products/cq5dam_resized_img_890_medium_time1592388372566_jpg_890x.webp?v=1656939981);}
+    100% {background-image: url(https://cdn.bmwblog.com/wp-content/uploads/2017/10/BMW-M5-M-Performance-Parts-F90-14.jpg);}
+}
+:root {
+    --myfontsize:27px;
+}
+
+header {
+    display: flex;
+    justify-content: center;    
+    animation-name: headerbackground;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    background-size:cover;
+    background-position:center;
+    height: 300px;
+}
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(51, 160, 184); */
+    width: 90%;
+    height: 200px;
+    position: fixed;
+}
+nav a {
+    font-size: var(--myfontsize);
+    margin-left: 70px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: grey;
+}
+.divnav {
+    width: 30%;
+    height: 250px;  
+    
+}
+.divnav img {
+    width: 100px;
+    height: 100px;
+    margin: 80px 0px 0px 40px;
+}
+#refreshbutton {
+    padding:14px 23px 14px 23px;
+    background-color: transparent;
+    font-size: var(--myfontsize);
+    color: whitesmoke;
+    border: white 1px solid;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 5px 7px 8px b;
+}
+#divnavinput {
+    width: 160px;
+    height: 30px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+.inputdivnav {
+    height: 300px;
+    width: 300px;
+}
+#searchnavbtn {
+    padding: 12px 16px 12px 16px;
+    background-color:rgb(155, 150, 150);
+    box-shadow: 5px 7px 3px black;
+    color: white;
+    text-align: var(--myfontsize);
+    cursor: pointer;
+    border-radius: 10px;
+}
+main {
+    display: flex;
+    height: 1800px;
+}
+.mainleftdiv {
+width: 50%;
+background-color: blue;
+background-image: url(https://di-uploads-pod23.dealerinspire.com/bmwofowingsmills/uploads/2022/05/bmw-3-series-vs-5-series.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.mainrightdiv {
+width: 50%;
+background-color: red;
+background-image: url();
+}
