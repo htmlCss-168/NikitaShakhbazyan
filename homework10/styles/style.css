@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: grey;
     
 }
 
@@ -31,10 +32,11 @@ nav {
     align-items: center;
     display: flex;
     justify-content: center;
-    /* background-color: rgb(51, 160, 184); */
     width: 90%;
     height: 200px;
     position: fixed;
+    background-color: transparent;
+
 }
 nav a {
     font-size: var(--myfontsize);
@@ -63,7 +65,7 @@ nav a:hover{
     border: white 1px solid;
     cursor: pointer;
     border-radius: 15px;
-    box-shadow: 5px 7px 8px b;
+    box-shadow: 5px 7px 8px black;
 }
 #divnavinput {
     width: 160px;
@@ -90,16 +92,145 @@ nav a:hover{
 main {
     display: flex;
     height: 1800px;
+    gap: 10px;
+    margin-top: 5px;
 }
 .mainleftdiv {
 width: 50%;
-background-color: blue;
-background-image: url(https://di-uploads-pod23.dealerinspire.com/bmwofowingsmills/uploads/2022/05/bmw-3-series-vs-5-series.jpg);
+display: flex;
+justify-content: center;
+background-image: url(https://images.unsplash.com/photo-1607853554439-0069ec0f29b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
 background-repeat: no-repeat;
 background-size: cover;
 }
-.mainrightdiv {
-width: 50%;
-background-color: red;
-background-image: url();
+.mainleftdiv h1 {
+    margin-top: 150px;
+    font-size: 45px;
+    color: rgb(64, 61, 61);
+    text-shadow: 4px 5px 5px white;
 }
+#leftreadmore {
+    background-color: transparent;
+    padding: 18px 23px 18px 23px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: var(--myfontsize);
+    cursor: pointer;
+    margin-left: 199px;
+    border-radius: 20px;
+    
+ }
+ #leftreadmore:hover{
+    background-color: rgb(220, 209, 209);
+ }
+.mainleftdiv1 {
+    margin-left: 100px;
+}
+
+
+ .mainleftdiv1 p {
+    font-size: var(--myfontsize);
+    width: 80%;
+    margin-top: 100px;
+    color:black;
+    font-weight: bold;
+ }
+ #leftarticle {
+    margin-top: 200px;
+    width: 80%;
+    color:black;
+    font-size: var(--myfontsize);
+    border: 1px white solid;
+    border-radius: 15px;
+    padding: 20px;
+    font-weight: bold;
+    background-color:burlywood;
+    opacity: 0.7;
+ }
+
+ .mainrightdiv {
+    width: 50%;
+    background-color: red;
+    background-image: url(https://www.earthinpictures.com/world/germany/munich/bmw_headquarters_building.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    }
+ .mainrightdiv1 h1 {
+    font-size: 45px;
+    color: rgb(64, 61, 61);
+    text-shadow: 4px 5px 5px white;
+    margin-left: 150px;
+    margin-top: 150px;
+ }
+ #rightreadmore {
+    padding:14px 23px 14px 23px;
+    background-color: transparent;
+    font-size: var(--myfontsize);
+    color: black;
+    border: white 1px solid;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 5px 7px 8px black;
+    margin-top: 30px;
+    margin-left: 250px;
+ }
+ #rightreadmore:hover {
+        background-color: rgb(220, 209, 209);
+ }
+ .mainrightdiv1 p {
+    font-size: var(--myfontsize);
+    width: 80%;
+    margin-top: 100px;
+    color:white;
+    font-weight: bold;
+    margin-left: 150px;
+ }
+ #rightarticle {
+    margin-top: 200px;
+    width: 80%;
+    color:black;
+    font-size: var(--myfontsize);
+    border: 1px white solid;
+    border-radius: 15px;
+    padding: 20px;
+    font-weight: bold;
+    background-color:burlywood;
+    opacity: 0.7;
+    margin-left: 80px;
+
+ }
+ footer {
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+ }
+ .mainfooterdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    gap: 60px;
+    background-color: black;
+ }
+ .footeritem {
+    justify-content: center;
+    width: 400px;
+    height: 80%;
+    color: white;
+    display: grid;
+
+ }
+ h2 {
+    font-size: 25px;
+    color:white ;
+ }
+ .footeritem a {
+    color: grey;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 0;
+ }
