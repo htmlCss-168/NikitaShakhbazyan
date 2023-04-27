@@ -36,6 +36,7 @@ nav {
     height: 200px;
     position: fixed;
     background-color: transparent;
+    z-index:2;
 
 }
 nav a {
