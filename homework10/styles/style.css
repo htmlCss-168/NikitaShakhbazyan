@@ -1,9 +1,31 @@
+html {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
 body {
     margin: 0;
     background-color: grey;
+    width: 100%;
+    
     
 }
+@font-face {
+    font-family: fonttt;
+    src: url(/homework10/font/Fonttt.ttf);
+}
 
+@-webkit-keyframes headerbackground {
+    0% {background-image: url(https://i0.wp.com/www.rolledlife.com/wp-content/uploads/2018/01/27957157599_8288769812_o-e1516263764474.jpg?fit=1920%2C1280&quality=95);}
+    20% {background-image: url(https://bmwtuning.co/wp-content/uploads/2022/11/e39.webp);}
+    40% {background-image: url(https://www.supersprint.com/public/img/001-505797.jpg);}
+    60% {background-image: url(https://en.firstauto.lv/wp-content/uploads/2022/11/img_2013.jpg);}
+    80% {background-image: url(https://cdn.shopify.com/s/files/1/0631/3567/8697/products/cq5dam_resized_img_890_medium_time1592388372566_jpg_890x.webp?v=1656939981);}
+    100% {background-image: url(https://cdn.bmwblog.com/wp-content/uploads/2017/10/BMW-M5-M-Performance-Parts-F90-14.jpg);}
+}
 
 @keyframes headerbackground {
     0% {background-image: url(https://i0.wp.com/www.rolledlife.com/wp-content/uploads/2018/01/27957157599_8288769812_o-e1516263764474.jpg?fit=1920%2C1280&quality=95);}
@@ -15,33 +37,50 @@ body {
 }
 :root {
     --myfontsize:27px;
+    --myfontfamily:fonttt;
 }
 
 header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;    
-    animation-name: headerbackground;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 10s;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;    
+    -webkit-animation-name: headerbackground;    
+            animation-name: headerbackground;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
     background-size:cover;
     background-position:center;
-    height: 300px;
+    height: 400px;
 }
 nav {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    align-items: center;
+    width: auto;
     height: 200px;
     position: fixed;
     background-color: transparent;
     z-index:2;
+    border-bottom: 1px solid black;
 
 }
 nav a {
     font-size: var(--myfontsize);
-    margin-left: 70px;
+    margin-left: 30px;
     text-decoration: none;
     color: white;
 }
@@ -53,10 +92,10 @@ nav a:hover{
     height: 250px;  
     
 }
-.divnav img {
+nav img {
     width: 100px;
     height: 100px;
-    margin: 80px 0px 0px 40px;
+    margin-left: 80px;
 }
 #refreshbutton {
     padding:14px 23px 14px 23px;
@@ -66,7 +105,8 @@ nav a:hover{
     border: white 1px solid;
     cursor: pointer;
     border-radius: 15px;
-    box-shadow: 5px 7px 8px black;
+    -webkit-box-shadow: 5px 7px 8px black;
+            box-shadow: 5px 7px 8px black;
 }
 #divnavinput {
     width: 160px;
@@ -74,8 +114,8 @@ nav a:hover{
     margin-left: 0px;
     margin-bottom: 50px;
     position: relative;
-    bottom: 50px;
-    left: 50px;
+    left: 60px; 
+    top: 20px;
 }
 .inputdivnav {
     height: 300px;
@@ -84,23 +124,35 @@ nav a:hover{
 #searchnavbtn {
     padding: 12px 16px 12px 16px;
     background-color:rgb(155, 150, 150);
-    box-shadow: 5px 7px 3px black;
+    -webkit-box-shadow: 5px 7px 3px black;
+            box-shadow: 5px 7px 3px black;
     color: white;
     text-align: var(--myfontsize);
     cursor: pointer;
     border-radius: 10px;
+    position: relative;
+    left: 80px;
+    bottom: 8px;
 }
 main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    height: 1800px;
+    height: 2100px;
     gap: 10px;
     margin-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .mainleftdiv {
 width: 50%;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-justify-content: center;
-background-image: url(https://images.unsplash.com/photo-1607853554439-0069ec0f29b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+background-image: url(https://bestwallpapers.net/wp-content/uploads/2021/01/Bmw-Lover-for-Wallpaper-Most-Popular-BMW-Wallpapers-Free-Download.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -109,6 +161,7 @@ background-size: cover;
     font-size: 45px;
     color: rgb(64, 61, 61);
     text-shadow: 4px 5px 5px white;
+    font-family: fonttt;
 }
 #leftreadmore {
     background-color: transparent;
@@ -135,6 +188,16 @@ background-size: cover;
     margin-top: 100px;
     color:black;
     font-weight: bold;
+    border-radius: 15px;
+    padding: 10px;
+ }
+ .mainleftdiv1 p:hover {
+    background-color: grey;
+    opacity: 0.9;
+    -webkit-transform: rotate(7deg);
+        -ms-transform: rotate(7deg);
+            transform: rotate(7deg);
+            transition: ease-in-out 1.5s;
  }
  #leftarticle {
     margin-top: 200px;
@@ -156,8 +219,12 @@ background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     }
  .mainrightdiv1 h1 {
     font-size: 45px;
@@ -165,6 +232,7 @@ background-size: cover;
     text-shadow: 4px 5px 5px white;
     margin-left: 150px;
     margin-top: 150px;
+    font-family: var(--myfontfamily);
  }
  #rightreadmore {
     padding:14px 23px 14px 23px;
@@ -174,8 +242,9 @@ background-size: cover;
     border: white 1px solid;
     cursor: pointer;
     border-radius: 15px;
-    box-shadow: 5px 7px 8px black;
-    margin-top: 30px;
+    -webkit-box-shadow: 5px 7px 8px black;
+            box-shadow: 5px 7px 8px black;
+    margin-top: 80px;
     margin-left: 250px;
  }
  #rightreadmore:hover {
@@ -183,11 +252,21 @@ background-size: cover;
  }
  .mainrightdiv1 p {
     font-size: var(--myfontsize);
-    width: 80%;
+    width: 60%;
     margin-top: 100px;
     color:white;
     font-weight: bold;
-    margin-left: 150px;
+    margin-left: 120px;
+    border-radius: 15px;
+    padding: 10px;
+ }
+ .mainrightdiv1 p:hover{
+    background-color: black;
+    -webkit-transform: rotate(-7deg);
+        -ms-transform: rotate(-7deg);
+            transform: rotate(-7deg);
+            transition: ease-in-out 1.5s;
+            
  }
  #rightarticle {
     margin-top: 200px;
@@ -209,19 +288,28 @@ background-size: cover;
     margin-top: 10px;
  }
  .mainfooterdiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     height: 500px;
     gap: 60px;
-    background-color: black;
+    background-color: rgb(52, 50, 50);
  }
  .footeritem {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 400px;
     height: 80%;
     color: white;
+    display: -ms-grid;
     display: grid;
 
  }
@@ -230,8 +318,77 @@ background-size: cover;
     color:white ;
  }
  .footeritem a {
-    color: grey;
+    color: rgb(161, 154, 154);
     font-size: 23px;
     text-decoration: none;
     padding: 0;
+ }
+ .maincontent {
+    margin-top: 5px;
+    width: 90%;
+    height: 250px;
+    display: flex;
+    margin-left: 15px;
+ }
+ .maincontenttext {
+    display: block;
+    align-items:center;
+    background-color: green;
+    width: 40%;
+    height: 80%;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-watercolor-black-white-brush-background-picture-image_1166963.jpg);
+    border-radius: 15px;
+
+ }
+ .maincontenttext article {
+    width: 85%;
+    font-family: fonttt;
+    border: 2px solid white;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+
+ }
+ .maincontentimg {
+    width: auto;
+    height: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    align-items: center;
+    margin-left: 50px;
+
+
+ }
+ .mainimg {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .mainimg img {
+    border: 1px solid white;
+    width: 192px;
+    height: 150px;
+ }
+ #readfullarticlebtn {
+    margin-top: 15px;
+    padding: 10px 16px 10px 16px;
+    width: 30%;
+    position: relative;
+    left: 90px;
+    top: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ #readfullarticlebtn:hover{
+    color: white;
+    background-color: black;
+    transition: ease 2s;
  }
