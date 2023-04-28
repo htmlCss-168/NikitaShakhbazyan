@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     background-color: rgb(176, 175, 175);
-    width: 100%;
+    min-width: 1140px;
     
     
 }
@@ -205,7 +205,7 @@ border: 2px solid white;
     margin-top: 200px;
     width: 80%;
     color:black;
-    font-size: var(--myfontsize);
+    font-size: 20px;
     border: 1px white solid;
     border-radius: 15px;
     padding: 20px;
@@ -285,7 +285,7 @@ border: 2px solid white;
     margin-top: 200px;
     width: 80%;
     color:black;
-    font-size: var(--myfontsize);
+    font-size: 20px;
     border: 1px white solid;
     border-radius: 15px;
     padding: 20px;
@@ -356,15 +356,14 @@ border: 2px solid white;
 
  }
  .maincontenttext article {
-    width: 85%;
     font-family: fonttt;
     border: 2px solid white;
     background-color: whitesmoke;
     border-radius: 20px;
-    padding: 5px;
+    padding: 0px;
     position: relative;
-    left: 20px;
     top: 10px;
+    font-size: 15px;
  }
  .maincontenttext::first-letter {
     color: rgb(2, 2, 192);
@@ -411,4 +410,10 @@ border: 2px solid white;
     background-color: black;
     transition: ease 2s;
  }
-
+ 
+ @media (min-width:120px) and (max-width:1100px) {
+    article {
+        font-size:100px
+    }
+    
+ }
