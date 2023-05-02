@@ -138,6 +138,20 @@ footer {
 .maincont2-div img:hover {
     transform: scaleX(1.3);
 }
+.maincont2-input {
+    display: flex;
+    justify-content: center;
+}
+#maincont2-input {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(217, 203, 203);
+    color: blue;
+    text-transform: uppercase;
+}
+::placeholder {
+    color: black;
+}
 .maincont3-article {
 margin: 0 auto;
  width: 80%;
@@ -208,3 +222,60 @@ article a {
 .footernav a:hover {
     color: rgb(214, 208, 208);
 }
+
+@media (min-width:150px) and (max-width:700px) {
+    body {
+        height: 4500px;
+    }
+    
+    header {
+        display:flex
+    }
+    nav img {
+        display: none;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: auto auto;
+    } 
+    .maincont1-inputdiv {
+    display: block;
+    padding-bottom: 300px;
+    }
+    #submit-input {
+        display: none;
+    }
+    .maincont1 {
+        margin-bottom: 200px;
+    }
+    .maincont2 {
+        height: auto;
+    }
+    .maincont2-maindiv {
+        display:block;
+    }
+    .maincont2-div img {
+        margin-left: 150px;
+    }
+    .maincont2-div h2 {
+        margin-left: 20px;
+        margin-top: -130px;
+    }
+    .maincont3 {
+        height: auto;
+        display: block;
+    }
+    .maincont3-article  {
+        display: grid;
+    }
+    footer {
+        position:relative;
+        top: 900px;
+        height: 600px;
+        width:fit-content;
+    }
+    .footerdiv {
+        display: flex;
+        clear: both;
+    }
+     }
