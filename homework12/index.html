@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">JS homrework</h1>
+    <script>
+        // var a = 10;
+        // var b = 30;
+        // alert(a+b)
+
+        // პირველი დავალება(კალკულატორის ძალიან პრიმიტიული მაგალითი:) )
+
+        // --------------------------------------------------------
+        // var choise = "grey";
+
+        // if (choise == "green");
+        //  {alert ("you chose green"); } 
+
+        //  else if (choise == "white")
+        //   {alert("you chose white,the best color!");} 
+
+        // else { alert ("you chose something else!")}
+
+        // დავალება 2( ანუ სტანდარტულად აისახება "grey",მაგრამ  მწვანის არჩევის შემთხვევაში - გამოჩდნება წარწერა "you chose green". იგივე ტენდენცია else if და else)
+
+        // --------------------------------------------------
+
+        var NickShakh = ["location", "nationality" , "age 21 y.o" , "living place"];
+        
+        // alert(NickShakh[2]);
+        // დავალება 3, აქ აისახა რიგითობით მე-3 ელემენტი,ვინაიდან ათვლა იწყება 0-დან,ასახულია მასივი.
+        // ------------------------------------------
+
+        var NickShaKH = {
+            name : "Nikita",
+            age : 21,
+            address : "Ortachala Street"
+        }
+        
+        NickShaKH ["name"] = "Shakh";
+
+        // delete NickShaKH.address(aq brzanebis dasrulebamde chavsvi da magitomac imoqmeda)
+
+        // alert(JSON.stringify(NickShaKH))       //(kvelapris gamotana)
+
+        // delete NickShaKH.address;(aq ar aisaxa,imitom rom alertis shemdeg dgas delete, anu brzaneba micemulia manamde,sanam addres wavshale)
+        
+
+        // (თავიდან ცვლაში მოცემული იყო გარკვეული მონაცემები(name,age and address,ქვემოთ მე მონაცემს name შევუცვალე "ინფორმაცია", და Nikita-ს ნაცვლად, alert-ის შემთხვევაში ისახება ახალი ინფორმაცია , Shakh.))
+// --------------------------------------------------------------
+
+        var school = {
+            name : "Privat School",
+            floors : "four floors",
+            location : "Tbilisi,Ortachala street",
+            established : 1955,
+            color : "blue"
+        }
+
+        alert(JSON.stringify(school,null,3));
+
+
+        // alert(school[])
+        
+
+
+
+
+    </script>
+</body>
+</html>
