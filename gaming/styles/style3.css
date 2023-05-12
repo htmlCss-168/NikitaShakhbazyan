@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 2%, rgba(148,15,159,1) 89%);
-    margin: 0;
+    margin: 0 ;
 
 
 }
