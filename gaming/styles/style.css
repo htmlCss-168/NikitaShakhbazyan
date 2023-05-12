@@ -4,16 +4,16 @@
 }
 @font-face {
     font-family: myfont;
-    src: url(font/myfont.otf);
+    src: url(gaming/font/myfont.otf);
 }
 @font-face {
     font-family: myfont2;
-    src: url(/font/myfont2.ttf);
+    src: url(gaming/font/myfont2.ttf);
 }
 
 @font-face {
     font-family: myfont3;
-    src: url(/font/myfont3.otf);
+    src: url(gaming/font/myfont3.otf);
 }
 
 body {
@@ -45,7 +45,7 @@ nav {
 }
 .headerbackground {
     height: 500px;
-    background-image: url(/img/New\ background\ picture.png);
+    background-image: url(/gaming/img/New\ background\ picture.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
