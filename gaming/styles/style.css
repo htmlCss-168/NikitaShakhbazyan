@@ -45,7 +45,7 @@ nav {
 }
 .headerbackground {
     height: 500px;
-    /* background-image: url(/gaming/img/New\ background\ picture.png); */
+    background-image: url(/https://i.redd.it/gx62jp5wzmda1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -608,13 +608,14 @@ footer h3 {
 .maincont5 {
     height: 2000px;
     background-position: center;
+    background-image:url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/img/dragonPicture.jpg);
+    }
 }
 
 .maincont5-main {
     display: flex;
-    flex-direction: column;
-    background-image:url(https://wallpaperaccess.com/full/271785.jpg);
-}
+    flex-direction: column; 
+     }
 .maincont5-main1 {
     height: auto;
     width: auto;
