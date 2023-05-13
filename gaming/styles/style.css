@@ -45,7 +45,7 @@ nav {
 }
 .headerbackground {
     height: 500px;
-    background-image: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/img/balrog.jpg);
+    /* background-image: url(/gaming/img/New\ background\ picture.png); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -345,7 +345,7 @@ header a:hover{
   }
   .maincont5-main {
     width: 100%;
-    background-image: url(/img/dragonPicture.jpg);
+    background-image: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/img/dragonPicture.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -608,6 +608,7 @@ footer h3 {
 .maincont5 {
     height: 2000px;
     background-position: center;
+    background-image: url(https://images.hdqwalls.com/wallpapers/three-face-dragon-4k-76.jpg);
 }
 
 .maincont5-main {
