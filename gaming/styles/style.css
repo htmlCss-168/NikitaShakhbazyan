@@ -608,12 +608,12 @@ footer h3 {
 .maincont5 {
     height: 2000px;
     background-position: center;
-    background-image: url(https://images.hdqwalls.com/wallpapers/three-face-dragon-4k-76.jpg);
 }
 
 .maincont5-main {
     display: flex;
     flex-direction: column;
+    background-image:url(https://wallpaperaccess.com/full/271785.jpg);
 }
 .maincont5-main1 {
     height: auto;
