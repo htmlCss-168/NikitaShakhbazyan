@@ -17,10 +17,12 @@
 }
 
 body {
-    height: 4500px;
+    height: 4750px;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 20%, rgba(28,30,33,1) 66%);
     margin: 0;
+    width: 1300px;
+
 }
 header {
    display: block;
@@ -62,7 +64,7 @@ nav {
     text-align: center;
     font-size: 35px;
     font-family:"myfont2";
-    color: tan;
+    color: rgb(246, 242, 238);
 }
 .maincont1 {
     padding-top: 20px;
@@ -544,10 +546,10 @@ footer h3 {
 
 
 
-@media (min-width:220px) and (max-width:750px) {
+/* @media (min-width:220px) and (max-width:750px) {
     header {
         border: auto;
-        width:auto;
+        width:cover;
     }
     nav{
         display: flex;
@@ -658,4 +660,46 @@ footer {
     justify-content: center;
   } */
 
+
+
+
+@media (min-width:220px) and (max-width:720px) {
+   body {
+    max-width: 100%;
+   }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    nav {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+   }
+   .navadiv {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+   }
+    form {
+        display: none;
+    }
+    .undernav{
+        width: min-content;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0;
+        margin: 0;
+        gap: 40px;
+        z-index: 2;
+    }
+    .undernav a {
+        text-shadow: 5px 5px 5px white;
+    }
+
+    .headerbackground h1 {
+        display: none;
+    }
 }
