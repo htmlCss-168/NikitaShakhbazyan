@@ -45,7 +45,7 @@ nav {
 }
 .headerbackground {
     height: 500px;
-    background-image: url(/https://i.redd.it/gx62jp5wzmda1.jpg);
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/FJPT5455KR5K1589912863345.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -546,8 +546,8 @@ footer h3 {
 
 @media (min-width:220px) and (max-width:750px) {
     header {
-        border: none;
-        width: ;
+        border: ;
+        width:;
     }
     nav{
         display: flex;
@@ -609,12 +609,14 @@ footer h3 {
     height: 2000px;
     background-position: center;
     background-image:url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/img/dragonPicture.jpg);
+    margin-top: 20px;
     }
-}
+
 
 .maincont5-main {
     display: flex;
     flex-direction: column; 
+    justify-content: space-around;
      }
 .maincont5-main1 {
     height: auto;
@@ -637,14 +639,16 @@ footer h3 {
 footer {
     display: flex;
     flex-direction: column;
-    height: 2000px;
+    height: 1000px;
 }
 .footer-main-div {
     display: flex;
     flex-direction: column;
-    height: ;
+    
 }
+.footer-main-div a {
 
-
+    font-size: 15px;
+  }
 
 }
