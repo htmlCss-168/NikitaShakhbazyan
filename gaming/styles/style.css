@@ -708,7 +708,6 @@ footer {
     
     .headerbackground { 
         display: none;
-        background-size:cover ;
-        width: 1000px;
+        
     }
 }
