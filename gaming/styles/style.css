@@ -667,7 +667,7 @@ footer {
    body {
     max-width: 100%;
    }
-    header {
+    /* header {
         display: flex;
         flex-direction: column;
     }
@@ -701,5 +701,5 @@ footer {
 
     .headerbackground h1 {
         display: none;
-    }
+    } */
 }
