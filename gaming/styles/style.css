@@ -690,24 +690,24 @@ footer {
         display: none;
     }
     .undernav{
-        /* width: min-content; */
-        display: inline;
-        /* grid-template-columns: auto auto; */
+        justify-content: space-between;
+        display: flex;
         padding: 0;
         margin: 0;
         gap: 40px;
         z-index: 2;
     }
-    .undernav a {
-        text-shadow: 5px 5px 5px white;
+    .headerbackground {
+        min-width: 850px;
     }
-
     .headerbackground h1 {
         display: none;
     }
-    
-    .headerbackground { 
-        display: none;
-        
+    .maincont1 {
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        /* justify-content: center; */
+        align-items: center;
     }
 }
