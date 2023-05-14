@@ -546,139 +546,28 @@ footer h3 {
 
 
 
-/* @media (min-width:220px) and (max-width:750px) {
-    header {
-        border: auto;
-        width:cover;
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-        width: min-content;
-    }
-    nav a {
-        float:right;
-        margin-top: 20px;
-    }
-    body {
-        height: 5000px;
-    }
-   .navadiv {
-    display: grid;
-    gap: 10px;
-    float: right;
-    margin-left: 300px;
-   }
-   .undernav {
-    display: grid;
-    float: left;
-    font-size: 10px;
-   }
-   .headerbackground {
-    display: block;
-   }
-
-
-   .headerbackground h1 {
-    display: none;
-   }
-   .maincont1 {
- display: flex;
- flex-direction: column;
- text-align: left;
- align-items:start
-   }
-   .maincont1 {
-    display: flex;
-    flex-direction: column;
-    height: 1500px;
-   }
-   .imgdiv {
-    border: none;
-   }
-
-.maincont2-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.maincont3 {
-    display: grid;
-    height: 1900px;
-    gap: 0;
-}
-.maincont4 {
-    height: 900px;
-}
-.maincont5 {
-    height: 2000px;
-    background-position: center;
-    background-image:url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/img/dragonPicture.jpg);
-    margin-top: 20px;
-    }
-
-
-.maincont5-main {
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-     }
-.maincont5-main1 {
-    height: auto;
-    width: auto;
-}
-
-.maincont6 {
-    height: 1000px;
-}
-.maincont6-big {
-    display: grid;
-    grid-template-columns: auto auto;
-    height: ;
-}
-.maincont6-main {
-   width: auto;
-   height: auto;
-
-}
-footer {
-    display: flex;
-    flex-direction: column;
-    height: 1000px;
-}
-.footer-main-div {
-    display: flex;
-    flex-direction: column;
-    
-}
-.footer-main-div a {
-
-    font-size: 15px;
-  }
-  /* body {
-    display: flex;
-    justify-content: center;
-  } */
-
-
-
-
 @media (min-width:220px) and (max-width:720px) {
  
   
   
     body {
     max-width: 100%;
+    display: flex;
+    height: auto;
+  
+    flex-direction: column;
    }
     header {
         display: flex;
         flex-direction: column ;
+        justify-content: center;
     }
    
     nav {
     display: flex;
     flex-direction: column;
     width: min-content;
+    justify-content: center;
    }
    .navadiv {
     display: flex;
@@ -704,10 +593,93 @@ footer {
         display: none;
     }
     .maincont1 {
-        display:flex;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        place-items: center;
+        width: 100%;
+    }
+    .maincont2-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: auto;
+        gap: 40px;
+    }
+    .maincont3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .maincont4 {
+        display: flex;
         flex-direction: column;
         height: auto;
-        /* justify-content: center; */
+        width: 100%;
+        justify-content: center;
         align-items: center;
+    }
+    .maincont5 {
+        margin-top: 20px;
+        height: auto;
+        max-height: fit-content;
+    }
+    .maincont5-main {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 700px;
+        
+    } 
+    .maincont5-main h1{
+        color: aliceblue;
+    }
+    .maincont5 article {
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    .maincont6 {
+        height: auto;
+        margin-top: 20px;
+    }
+    .maincont6-big {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .maincont6-main {
+        gap: 10px;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .maincont6-main-inside {
+        font-size: 24px;
+
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .footer-main-div1 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .footer-main-div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
     }
 }
