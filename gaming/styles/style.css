@@ -601,6 +601,9 @@ footer h3 {
         margin-top: 20px;
         height: auto;
         max-height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-self: center;
     }
     .maincont5-main {
         display: flex;
