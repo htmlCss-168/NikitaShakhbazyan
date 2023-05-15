@@ -149,6 +149,8 @@ nav {
     border: 2px solid white;
     position: relative;
     bottom: 35px;
+    color: white;
+    text-align: center;
 }
 .navadiv {
     width: 70%;
