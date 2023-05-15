@@ -548,13 +548,13 @@ footer h3 {
     }
    
     nav {
+        display: flex;
+        flex-direction: column;
+        /* width: min-content; */
+        justify-content: center;
+    }
+    .navadiv {
     width: 80%;
-    display: flex;
-    flex-direction: column;
-    width: min-content;
-    justify-content: center;
-   }
-   .navadiv {
     display: flex;
     justify-content: space-around;
     margin: 0;
