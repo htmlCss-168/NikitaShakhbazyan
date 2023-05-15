@@ -3,16 +3,16 @@
     --favouritefont:'myfont'
 }
 @font-face {
-    font-family: myfont;
+    font-family: "myfont";
     src: url(/gaming/font/myfont.otf);
 }
 @font-face {
-    font-family: myfont2;
+    font-family:"myfont2";
     src: url(/gaming/font/myfont2.ttf);
 }
 
 @font-face {
-    font-family: myfont3;
+    font-family: "myfont3";
     src: url(/gaming/font/myfont3.otf);
 }
 
