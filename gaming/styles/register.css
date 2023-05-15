@@ -13,12 +13,12 @@
 
 body {
     margin: 0;
-    /* background-color:;
-    background-position:center;
+    background-image: url(https://images.hdqwalls.com/wallpapers/three-face-dragon-4k-76.jpg);
+    background-position:top;
     background-repeat: no-repeat;
-    background-size: cover; */
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 2%, rgba(148,15,159,1) 89%);  
+    background-size: cover;
+    /* background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 2%, rgba(148,15,159,1) 89%);   */
 }
 
 header {

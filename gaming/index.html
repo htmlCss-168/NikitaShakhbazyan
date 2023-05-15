@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
-    <link rel="stylesheet" href="https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/styles/style.css">
+    <link rel="stylesheet" href="/gaming/styles/style.css">
 </head>
 <body>
     <header>
         
         <nav>
             <form action="">
-            <input id="navbutton" type="submit" value="Search">
+            <input id="navbutton" onclick="Nikita()" type="submit" value="Search">
             <input id="inputtext" type="text" placeholder="Type">
             </form>
         <div class="navadiv">
@@ -219,5 +219,30 @@
     <h3>2023</h3>
     </div>
     </footer>
+    <script>
+        function Nikita() {
+            var input = document.getElementById("inputtext").value;
+            event.preventDefault();
+            if (input === "register") {
+                window.location.href = "register.html";
+            }
+             else if (input === "login") {
+                window.location.href = "index2.html";
+            }
+            else if (input === "about us") {
+                window.location.href = "aboutus.html";
+            }
+            else if (input === "contact us") {
+                window.location.href = "contactUs.html"
+            }
+            else if (input === "history") {
+                window.location.href = "gameCreation.html"
+            }
+            else {
+                window.location.href = "loginFailed.html"
+            }
+
+        }
+    </script>
 </body>
 </html>
