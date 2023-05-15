@@ -4,16 +4,16 @@
 }
 @font-face {
     font-family: myfont;
-    src: url(font/myfont.otf);
+    src: url(/gaming/font/myfont.otf);
 }
 @font-face {
     font-family: myfont2;
-    src: url(/font/myfont2.ttf);
+    src: url(/gaming/font/myfont2.ttf);
 }
 
 @font-face {
     font-family: myfont3;
-    src: url(/font/myfont3.otf);
+    src: url(/gaming/font/myfont3.otf);
 }
 
 body {
@@ -544,7 +544,6 @@ footer h3 {
         display: flex;
         flex-direction: column ;
         justify-content: center;
-        width: 100;
     }
    
     nav {
@@ -552,6 +551,8 @@ footer h3 {
         flex-direction: column;
         /* width: min-content; */
         justify-content: center;
+        display: flex;
+        justify-content: spac;
     }
     .navadiv {
     width: 80%;
@@ -564,7 +565,7 @@ footer h3 {
         display: none;
     }
     .undernav{
-        justify-content: space-around;
+        justify-content: center;
         display: flex;
         padding: 0;
         margin: 0;
