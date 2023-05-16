@@ -1,6 +1,19 @@
 /* login-password */
 
 
+@font-face {
+    font-family: 'myfont';
+    src: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/font/myfont.otf);
+  }
+  @font-face {
+    font-family: 'myfont2';
+    src: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/font/myfont.ttf);
+  }
+  @font-face {
+    font-family: 'myfont3';
+    src: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/font/myfont3.otf); }
+
+
 body {
     background-image: url(https://wallpaperaccess.com/full/271785.jpg);
     background-repeat: no-repeat;
@@ -269,20 +282,52 @@ footer h3 {
 
 
 
-
-
-
-@font-face {
-    font-family: myfont;
-    src: url(/gaming/font/myfont.otf);
+@media (min-width:200px) and (max-width:780px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        height: auto;
+    }
+    nav a {
+        font-size: 15px;
+        margin: 0;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        max-width: fit-content;
+        padding: 100px;
+    }
+    footer {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .divfooter {
+        font-size: 8px;
+        height: auto;
+    }
+    .div-row-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
-@font-face {
-    font-family: myfont2;
-    src: url(/gaming/font/myfont2.ttf);
-}
-@font-face {
-    font-family: myfont3;
-    src: url(/gaming/font/myfont3.otf);
-}
-
 

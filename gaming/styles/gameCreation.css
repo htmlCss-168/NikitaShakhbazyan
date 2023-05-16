@@ -287,3 +287,72 @@ footer input::placeholder {
     letter-spacing: 2px;
     font-weight: bold;
 }
+
+@media (min-width:220px) and (max-width:780px) {
+
+    body{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-self: center;
+    }
+    header {
+
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .nav-a-div {
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-p p {
+        display: none;
+        
+    }
+    .nav-a-div a {
+        font-size: 14px;
+    }
+    #nav-input {
+        display: none;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-links-div {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+    .container1 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .container2 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+    .cont2-div {
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: c;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .footer-div1 {
+        font-size: 14px;
+    }
+}
