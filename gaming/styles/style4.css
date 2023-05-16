@@ -1,5 +1,16 @@
 /* contactus */
-
+@font-face {
+  font-family: 'myfont';
+  src: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/font/myfont.otf);
+}
+@font-face {
+  font-family: 'myfont2';
+  src: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/font/myfont.ttf);
+}
+@font-face {
+  font-family: 'myfont3';
+  src: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/font/myfont3.otf);
+}
 
 body {
 

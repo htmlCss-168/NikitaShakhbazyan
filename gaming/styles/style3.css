@@ -15,15 +15,15 @@ body {
 }
 @font-face {
     font-family: 'myfont';
-    src: url(/gaming/font/myfont.otf);
+    src: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/font/myfont.otf);
 }
 @font-face {
     font-family: 'myfont2';
-    src: url(/gaming/font/myfont2.ttf);
+    src: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/font/myfont2.ttf);
 }
 @font-face {
     font-family: 'myfont3';
-    src: url(/gaming/font/myfont3.otf);
+    src: url(https://htmlcss-168.github.io/NikitaShakhbazyan/gaming/font/myfont3.ttf);
 }
 
 header {
