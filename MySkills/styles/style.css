@@ -1,18 +1,18 @@
 @font-face {
     font-family: font-gothic;
-    src: url(/fonts/font-gothic.ttf);
+    src: url(/MySkills//fonts/font-gothic.ttf);
 }
 @font-face {
     font-family: fenix-header;
-    src: url(/fonts/fenix-header.ttf);
+    src: url(/MySkills//fonts/fenix-header.ttf);
 }
 @font-face {
     font-family: 'space-fnt';
-    src: url(/fonts/digital-space.ttf);
+    src: url(/MySkills/fonts/digital-space.ttf);
 }
 @font-face {
     font-family: fnt3;
-    src: url(/fonts/font3.otf);
+    src: url(/MySkills//fonts/font3.otf);
 }
 body {
     background: rgb(85,5,97);
