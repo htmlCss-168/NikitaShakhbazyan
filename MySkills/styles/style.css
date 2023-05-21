@@ -1,0 +1,357 @@
+@font-face {
+    font-family: font-gothic;
+    src: url(/fonts/font-gothic.ttf);
+}
+@font-face {
+    font-family: fenix-header;
+    src: url(/fonts/fenix-header.ttf);
+}
+@font-face {
+    font-family: 'space-fnt';
+    src: url(/fonts/digital-space.ttf);
+}
+@font-face {
+    font-family: fnt3;
+    src: url(/fonts/font3.otf);
+}
+body {
+    background: rgb(85,5,97);
+    background: radial-gradient(circle, rgba(85,5,97,1) 10%, rgba(110,31,128,1) 50%, rgba(66,3,79,1) 90%);
+    /* height: 4500px; */
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid gold; */
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+.header-div {
+width: 45%;
+height: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
+/* background-color: gainsboro; */
+}
+.header-div h2 {
+    font-family: 'font-gothic';
+    color: white;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-size: 30px;
+}
+nav {
+    /* background-color: blue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'space-fnt';
+}
+nav a:hover {
+    color: grey;
+}
+
+main {
+    display: flex;
+    /* height: 900px; */
+    /* background-color: gainsboro; */
+    flex-direction: column;
+}
+.main-img {
+    height: 500px;
+    width: 100%;
+    /* background-color: blue; */
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+#my-img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: 3px solid gold;
+    /* box-shadow: 2px 3px 4px gold; */
+}
+#main-my-name {
+    font-family: 'font-gothic';
+    color: white;
+    letter-spacing: 7px;
+    font-size: 30px;
+}
+.skills {
+    width: 100%;
+    height: 300px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 150px 0px;
+    flex-wrap: nowrap;
+}
+.skills h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    width: 80%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 29px;
+    line-height: 50px;
+    color: white;
+}
+.skills h4 {
+    font-family: 'fenix-header';
+    color: white;
+    letter-spacing: 20px;
+    font-size: 40px;
+}
+.skills-img-div {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.skills-img-div img {
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    border-radius: 30%;
+    
+}
+.skills-img-div img:hover {
+    transform: scale(1.2);
+    /* transform: rotate(10deg); */
+    cursor: pointer;
+}
+
+.personal-projects {
+    width: 100%;
+    height: 800px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.personal-projects-h2 {
+    width: 100%;
+    height: 15%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: start;
+    /* padding: 2%; */
+    font-family: 'font-gothic';
+    align-items: center;
+    color: white;
+    letter-spacing: 4px;
+}
+.personal-projects-h2 h2 {
+    padding-left: 20px;
+    font-size: 45px;
+}
+.personal-projects-links {
+    height: 70%;
+    /* background-color: gray; */
+    display:flex;
+    flex-direction: row;
+    gap: 3%;
+    /* padding-left: 4%; */
+    width: 100%;
+
+}
+.personal-projects-links1 {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+.personal-projects-links1 img {
+    width: 200px;
+    height: 200px;
+}
+.personal-projects-links1 a:hover {
+   background-color: rgba(29, 1, 185, 1.5);
+   box-shadow: 10px 10px -15px blue;
+   scale: 1.1;
+}
+.personal-projects-links1 h3 {
+    color: black;
+    font-family: 'font-gothic';
+    letter-spacing: 3px;
+}
+
+.personal-projects-links1 p {
+    color: grey;
+    width: 80%;
+
+}
+.personal-projects-links1 img {
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.about-me {
+    height: auto;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+
+
+    /* padding: 20px; */
+}
+#js {
+    display: none;
+    flex-direction: row;
+    gap: 10%;
+}
+.about-me img {
+    height: 200px;
+    width: 200px;
+}
+.about-me h3 {
+    width: 60%;
+    color: white;
+    line-height: 40px;
+    font-family: 'fnt3';
+    font-size: 30px;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px 1px wheat;
+    letter-spacing: 10px;
+    
+}
+.skills-before-footer {
+    width: 100%;
+    height: 260px;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills-before-footer1 {
+    width: 30.5%;
+    height: 90%;
+    background-color: rgba(205, 202, 196, 0.5);
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 7px 7px 7px black;
+}
+.skills-before-footer1 p {
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(40, 39, 39);
+    padding-left: 10px;
+    font-family: 'fnt3';
+
+}
+.skills-before-footer1 h2 {
+    font-family: 'font-gothic';
+    color: white;
+    padding-left: 20px;
+    letter-spacing: 5px;
+    
+}
+
+@media screen and (max-width:700px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 8000px;
+    }
+    
+    header {
+        /* max-width: max-content; */
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 7%;
+        align-items: center;
+        width: 100%;
+    }
+    .header-div {
+        display: none;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 190px;
+    }
+    .main-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+    .skills-img-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .personal-projects-links {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    #js {
+        display: flex;
+        flex-direction: column;
+    }
+    #a-click {
+        z-index: 2;
+        color: black;
+    }
+    .about-me {
+        margin-top: 820px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .skills-before-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        margin-top: 130px;
+    }
+    .skills-before-footer1 {
+        width:fit-content;
+    }
+ }
