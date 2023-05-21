@@ -1,5 +1,7 @@
 body {
     background: rgb(0,65,6);
+background: -webkit-gradient(linear, left top, right top, from(rgba(0,65,6,1)), color-stop(35%, rgba(4,147,12,1)), color-stop(75%, rgba(22,148,8,1)), to(rgba(6,50,0,1)));
+background: -o-linear-gradient(left, rgba(0,65,6,1) 0%, rgba(4,147,12,1) 35%, rgba(22,148,8,1) 75%, rgba(6,50,0,1) 100%);
 background: linear-gradient(90deg, rgba(0,65,6,1) 0%, rgba(4,147,12,1) 35%, rgba(22,148,8,1) 75%, rgba(6,50,0,1) 100%);
 margin: 0;
 height: 2500px;
@@ -8,16 +10,28 @@ header {
     /* background-color: blue; */
     width: 100%;
     height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 nav {
     /* background-color: red; */
     width: 90%;
     height: 100px; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
     display: flex;
-    justify-content: space-
+    -webkit-box-pack: space-
+    ;
+        -ms-flex-pack: space-
+    ;
+            justify-content: space-
     ;
 }
 nav p {
@@ -29,19 +43,32 @@ nav p {
 
 }
 .nav-p {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
     width: 20%;
 
 }
 .nav-a-div {
     /* background-color: #642020; */
     width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 30px;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .nav-a-div a {
     color: rgb(222, 255, 7);
@@ -51,12 +78,21 @@ nav p {
     font-weight: bold;
 }
 form {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /* background-color: black; */
     width: 30%;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 10px;
 }
 #nav-input {
@@ -65,6 +101,46 @@ form {
     background-color: transparent;
     border: 1.5px solid rgb(212, 244, 5);
     border-radius: 10px;
+}
+
+#nav-input::-webkit-input-placeholder {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    color: gold ;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#nav-input::-moz-placeholder {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    color: gold ;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#nav-input:-ms-input-placeholder {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    color: gold ;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#nav-input::-ms-input-placeholder {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    color: gold ;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 #nav-input::placeholder {
@@ -90,11 +166,20 @@ form {
 main {
     /* background-color: aqua; */
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 50px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .main-logo {
     width: 40%;
@@ -127,8 +212,12 @@ main {
     text-transform: uppercase;
     width: 60%;
     /* background-color: black; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 
 }
 .main-links-div a {
@@ -147,12 +236,21 @@ main {
     /* background-color: black; */
     width: 800px;
     height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 15px;
     border: 3px solid gold;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-left: 20px;
     border-radius: 20px;
 }
@@ -163,14 +261,23 @@ main {
     border-radius: 10px;
 }
 .article-cont1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 480px;
     height: 380px;
     /* background-color: white; */
     float: right;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 article {
     width: 80%;
@@ -189,11 +296,20 @@ article {
     height: 40%;
     background-color:rgb(242, 209, 166, 0.5);
     border: 4px solid gold;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    box-shadow: -12px -12px 12px yellow;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-shadow: -12px -12px 12px yellow;
+            box-shadow: -12px -12px 12px yellow;
     color: rgb(3, 13, 208);
 
 }
@@ -207,17 +323,27 @@ footer {
     width: 100%;
     height: 400px;
     /* background-color: grey; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 20px;
 }
 .footer-div {
     width: 100%;
     height: 25%;
     /* background-color: blue; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .footer-div a {
     color: white;
@@ -231,19 +357,35 @@ footer {
     height: 70%;
     /* background-color: gold; */
     border-top: 2px solid gold;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .footer-div1-in {
     background-color: rgb(0, 128, 0, 0.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 20%;
     height: 90%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     
 }
 .footer-div1-in a {
@@ -265,10 +407,51 @@ footer input {
     border: 2px solid gold;
     border-radius: 10px;
 }
+footer input::-webkit-input-placeholder {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+footer input::-moz-placeholder {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+footer input:-ms-input-placeholder {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+footer input::-ms-input-placeholder {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
 footer input::placeholder {
     color: black;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
+}.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
 }
