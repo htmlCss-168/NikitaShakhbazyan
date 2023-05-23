@@ -285,6 +285,74 @@ main {
     
 }
 
+footer {
+    width: 100%;
+    height: 280px;
+    /* background-color: gainsboro; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.footer-main-div {
+    /* background-color: brown; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+#footer-h2 {
+    text-align: center;
+    font-family: 'font-gothic';
+    text-transform: uppercase;
+    color: wheat;
+    letter-spacing: 8px;
+    font-size: 27px;
+}
+.footer-div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'fnt3';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 15px;
+}
+.footer-div a:hover {
+    color: rgb(183, 179, 179);
+    background-color: rgba(110,31,128,1);
+}
+
+footer h3 {
+    color: white;
+    text-align: center;
+    font-family: space-fnt;
+    letter-spacing: 10px;
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
 @media screen and (max-width:700px) {
     body {
         display: flex;
@@ -317,6 +385,9 @@ main {
         flex-direction: column;
         justify-content: center;
         align-self: center;
+    }
+    #my-img {
+        margin: 0 auto;
     }
     .skills-img-div {
         display: flex;
