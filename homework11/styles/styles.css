@@ -1,0 +1,55 @@
+
+body {
+    background-image: url(https://techcrunch.com/wp-content/uploads/2015/02/realestatetech.jpg);
+    background-size: cover;
+    
+   
+}
+main {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registration-div {
+    height: 300px;
+    width: 80%;
+    display: block;
+    text-align: center;
+}
+.h3-div {
+    display: inline-block;
+}
+#button-input {
+    margin-top: 15px;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    background-color: rgb(87, 81, 81);
+    border-radius: 20px;
+    
+}
+
+.socials {
+    position:fixed;
+    border: 2px solid black;
+    right: 0;
+    bottom: 0;
+}
+
+@media ( min-width:120px ) and ( max-width:700px ) {
+    body {
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 40px;
+        height: 900px;
+        background-position: center;
+    }
+    h3 {
+        background-color: white;
+        border-radius: 20px;
+    }
+}

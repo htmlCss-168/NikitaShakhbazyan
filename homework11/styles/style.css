@@ -1,0 +1,302 @@
+header {
+    background-color: white;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    height: 3000px;
+    background-image: url(https://img.pikbest.com/backgrounds/20200428/real-estate-texture-background-8_1910138.jpg!bw700);
+    
+}
+.socials {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    display: grid;
+    gap: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+}
+.socials a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.socials a:hover {
+    color: rgb(2, 2, 129);
+}
+
+nav {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+nav a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+nav img {
+    height: 130px;
+    width: 150px;
+}
+.maincont1 {
+    background-color: blue;
+    height: 600px;
+    display: grid;
+    background-image: url(https://www.financialexpress.com/wp-content/uploads/2023/03/real-estate-Mumbai-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    }
+.maincont1-h1div {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo-h1 {
+    color: white;
+    font-size: 40px;
+}
+.maincont1-inputdiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+}
+.maincont1-inputdiv input {
+    margin-left: 50px;
+    border-radius: 5px;
+    border: black 2px solid;
+    padding: 15px;
+}
+#submit-input {
+    margin: 0 auto;
+    padding: 12px 18px 12px 18px;
+    height:50px;
+    border-radius: 15px;
+    background-color: rgb(13, 13, 13, 0.7);
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#submit-input:hover {
+    background-color: grey;
+    color: black;
+    transition-duration: 0.5    s;
+}
+.maincont2 {
+    height: 800px;
+    
+    
+}
+.maincont3 {
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer {
+    height: 300px;
+    display: block;
+    background-color: rgb(7, 7, 231, 0.7);
+    border-radius: 10px;
+    
+}
+
+.maincont2-div {
+    width: 20%;
+    height: 300px;
+    margin-right: 20px;
+}
+.maincont2-maindiv {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .maincont2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: black;
+}
+.maincont2-div img {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 190px;
+    height: 290px;
+    border: black 2px solid;
+    transition: 0.3;
+}
+.maincont2-div h2 {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 25px;
+}
+.maincont2-div img:hover {
+    transform: scale(1.1);
+    width: 200px;
+    height: 300px;
+}
+.maincont2-input {
+    display: flex;
+    justify-content: center;
+}
+#maincont2-input {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(217, 203, 203);
+    color: blue;
+    text-transform: uppercase;
+}
+::placeholder {
+    color: black;
+}
+.maincont3-article {
+margin: 0 auto;
+ width: 80%;
+ height: 600px; 
+
+}
+.maincont3-article h1 {
+    justify-content: center;
+    display: flex;
+}
+.maincont3-article article {
+    padding-top: 150px;
+    width: 90%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    border: 2px solid red;
+    background-color: gray;
+    border-radius: 20px;
+}
+#img1 {
+    margin-top: 20px;
+    width: 350px;
+    height: 300px;
+    float: left;
+    border: 1px solid black;
+}
+#img2 {
+    margin-top: 20px;
+    width: 350px;
+    height: 300px;
+    float: right;
+    border: 1px solid black;
+}
+article a {
+    color: black;
+}
+.footernav {
+    width: 20%;
+    height: 80%;
+    margin-right: 50px;
+}
+.footerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.footernav {
+    display: grid;
+}
+.footernav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+.footernav h3 {
+    color: white;
+    font-size: 23px;
+}
+.footernav p {
+    margin-top: 200px;
+    color: white;
+}
+.footernav a:hover {
+    color: rgb(214, 208, 208);
+}
+
+@media (min-width:150px) and (max-width:700px) {
+    body {
+        height: 4500px;
+    }
+    
+    header {
+        display:flex
+    }
+    nav img {
+        display: none;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: auto auto;
+    } 
+    .maincont1-inputdiv {
+    display: block;
+    padding-bottom: 300px;
+    }
+    #submit-input {
+        display: none;
+    }
+    .maincont1 {
+        margin-bottom: 200px;
+    }
+    .maincont2 {
+        height: auto;
+    }
+    .maincont2-maindiv {
+        display:block;
+    }
+    .maincont2-div img {
+        margin-left: 150px;
+    }
+    .maincont2-div h2 {
+        margin-left: 20px;
+        margin-top: -130px;
+    }
+    .maincont3 {
+        height: auto;
+        display: block;
+    }
+    .maincont3-article  {
+        display: grid;
+    }
+    footer {
+        position:relative;
+        top: 900px;
+        height: 600px;
+        width:fit-content;
+    }
+    .footerdiv {
+        display: flex;
+        clear: both;
+    }
+     }
