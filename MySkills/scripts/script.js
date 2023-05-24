@@ -6,4 +6,14 @@ function Nick() {
         x.style.display = "flex";
       }
     
+
+      let clock = 5;
+
+      if (clock <= 5) {
+          alert("შეგიძლია გაისეირნო");
+      } else if (clock > 5) {
+          alert ("დარჩი სახლში");
+      } else {
+          alert ("დაიძინე");
+      }
 }

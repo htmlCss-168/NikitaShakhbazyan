@@ -226,6 +226,19 @@ main {
 
     /* padding: 20px; */
 }
+#a-click {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+#a-click:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    color: rgb(189, 184, 184);
+}
 #js {
     display: none;
     flex-direction: row;
