@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: black;
+    display: flex;
+    animation-name: backgroundd;
+    height: 350px;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    background-size: contain;
+    background-repeat:no-repeat;
+    transition:linear;
+    
+}
+.headernav {
+    position: relative;
+    left: 480px;
+    width: 45%;
+    height: 50px;
+    padding:30px;
+    background-color:rgb(44, 42, 42);
+    text-align: center;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    border-radius: 50px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.headernav a {
+  padding:10px;
+  transition-duration: 2s;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.headernav a:hover {
+    transition: linear;
+    color: rgb(67, 67, 186);
+    font-size: 17px;  
+}
+
+@keyframes backgroundd {
+
+    0% {background-image: url(https://grimmermotors.co.nz/wp-content/uploads/2017/11/oil-horizontal.png);}
+    
+    100%  {background-image: url(https://media.istockphoto.com/id/1315800156/photo/automobile-mechanic-repairman-hands-repairing-a-car-engine-automotive-workshop-with-a-wrench.jpg?b=1&s=170667a&w=0&k=20&c=1mTACjOQsCywELazdevG3b9137Lfzh4ejXMFGMBBUi0=); }
+    
+
+}   
+
+.ournumber{
+    height: 90px;
+    width:80px;
+    position: relative;
+    top: 130px;
+    right: 10px;
+  }
+  .ournumber p{
+    text-align:center;
+    color:#989ed6;
+    text-transform: uppercase;
+    padding-top: 35px;
+    animation: text 7s infinite ease-in-out;
+    padding-left: 100%;
+    white-space: nowrap;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+  }
+  @keyframes text {
+    0%{
+      transform: translate(0, 0);
+    }
+    
+    100%{
+      transform: translate(-160%, 0);
+    }
+  }
+  main {
+    justify-content: center;
+    display: inline-block;
+    padding-left: 250px;
+    background-color: rgb(223, 194, 194);
+   
+    
+  }
+  .mainarticle {
+    width: 70%;
+    font-size: 30px;
+    margin-top: 40px;
+    background-color: rgb(205, 189, 168);
+    border-radius: 30px;
+    padding: 20px;
+    transition: 1s;
+  }
+  .mainarticle:hover {
+    background-color: rgb(162, 150, 145);
+  }
+  #mainp1 {
+    width: 80%;
+    font-size: 35px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 40px;
+  }
+  #mainp1:hover {
+    background-color: rgb(255, 240, 118);
+  }
+  h2 {
+    font-size: 40px;
+    text-shadow: 3px 3px 5px;
+  }
+  aside li {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-decoration:underline;
+    width: 250px;
+  }
+  aside ul {
+    border:olivedrab solid 2px;
+    width: 70%;
+    background-color: #878893;
+    animation-name: asideul;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transition: ease-in-out;
+  } 
+  @keyframes asideul {
+    0% {background-color: rgb(127, 169, 169);}
+    20% {background-color: #878893;}
+    40% {background-color: #78788d;}
+    60% {background-color: #6f7391;}
+    100% {background-color: #989ed6;}
+  }
+  ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 300px;
+    bottom: 20px;
+    position: relative;
+  }
+  ul a:hover {
+    color: rgb(49, 29, 29);
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 3px 4px 5px rgb(106, 106, 125);
+  }
+
+
+.items{     
+  height: auto; 
+  font-size: 0; 
+  color: white; 
+  background: rgb(88, 88, 192);
+}
+.item{  
+  text-align: center;
+  font-size: 12px;
+  height: 300px;  
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;  
+  position: relative;
+}
+.item2 {
+  text-align: center;
+  font-size: 12px;
+  height: 300px;  
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;  
+  position: relative;
+}
+.item3 {
+  text-align: center;
+  font-size: 12px;
+  height: 320px;  
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;  
+  position: relative;
+}
+.item4 {
+  text-align: center;
+  font-size: 12px;
+  height: 300px;  
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;  
+  position: relative;
+}
+.item:after{
+  position: absolute; bottom: 5%; left: 5%;
+
+}
+.item a{ 
+  margin-top: 50px;
+}
+span {
+  color: blue;
+}
+h3 {
+  font-size: 30px;
+  color: white;
+}
+#footerarticle {
+  padding-left:10px;
+  font-size: 20px;
+}
+.item img {
+  margin:10px;
+  width: 50px;
+  height: 50px;
+}
+.item2 a {
+  display: grid;
+  margin-top: 20px;
+  color: rgb(189, 168, 168);
+  font-size: 17px;
+  text-decoration: none;
+}
+footer a:hover {
+  color: black;
+}
+.item3 a {
+  display: grid;
+  margin-top: 17px;
+  color: rgb(189, 168, 168);
+  font-size: 17px;
+  text-decoration: none;
+}
+#footerp {
+  font-size: 21px;
+  color:#989ed6;
+}
